@@ -11,10 +11,6 @@ body {
   border: 1px solid rgb(222, 222, 222);
 }
 
-#tabs {
-  width: 100%;
-}
-
 #tabs, #results {
   padding-left: 210px;
 }
@@ -22,7 +18,6 @@ body {
 #search {
   display: flex;
   flex-direction: row;
-  width: 100%;
   padding: 1em;
   background-color: white;
 }
@@ -106,7 +101,7 @@ footer span, #country{
   flex-direction: row;
   align-items: center;
   height: 40px;
-  padding-left: 27px;
+  padding-left: 210px;
   border: 1px solid rgb(222, 222, 222);
 }
 
@@ -116,4 +111,11 @@ footer span {
 
 footer span a {
   padding-right: 27px;
+}
+
+footer span a:visited {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #5F6368;
+  text-decoration: rgb(242, 242, 242);
 }
