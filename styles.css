@@ -136,3 +136,47 @@ footer span a:visited {
 .rq-title {
   font-size: 20px;
 }
+
+#videos {
+  display: flex;
+  flex-direction: row;
+}
+
+#vid-title {
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+.vid {
+  width: 212px;
+  height: 306px;
+  padding: 0px;
+  margin-right: 4px;
+}
+
+.vid figure img {
+  width: 212px;
+  height: 118px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.vid figcaption {
+  width: 178px;
+  height: 110px;
+  padding: 16px 16px 0px 16px;
+  margin-top: -6px;
+  font-size: 16px;
+}
+
+.vid-source {
+  padding: 0px 16px 11px 16px;
+}
+
+.vid-source cite {
+  color: rgb(128, 128, 128);
+}
+
+.vid-source span, cite {
+  display: inline-block;
+}
