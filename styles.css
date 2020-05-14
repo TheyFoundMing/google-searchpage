@@ -64,7 +64,7 @@ body {
   padding-top: 1em;
 }
 
-#top-search {
+#top-search, #related-questions, .vid {
   border: 1px solid rgb(222, 222, 222);
   border-radius: 8px;
   padding: 16px;
@@ -81,7 +81,8 @@ article {
   width: 600px;
 }
 
-article h3 {
+h3 {
+  color: black;
   font-size: 20px;
 }
 
@@ -118,4 +119,20 @@ footer span a:visited {
   font-family: arial, sans-serif;
   color: #5F6368;
   text-decoration: rgb(242, 242, 242);
+}
+
+#related-questions {
+  padding: 0px;
+  width: 630px;
+  margin-top: 1.5em;
+}
+
+.rq-question, .rq-title {
+  padding: 9px 16px 16px 12px;
+  border-top: 1px solid rgb(222, 222, 222);
+  font-size: 16px;
+}
+
+.rq-title {
+  font-size: 20px;
 }
