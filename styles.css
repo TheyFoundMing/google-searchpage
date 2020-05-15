@@ -1,0 +1,199 @@
+body {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  font-stretch: 100%;
+  font-weight: 400;
+  line-height: 22px;
+  color: #5F6368;
+}
+
+#top {
+  border: 1px solid rgb(222, 222, 222);
+}
+
+#tabs, #results {
+  padding-left: 210px;
+}
+
+#search {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  background-color: white;
+}
+
+#search img {
+  height: 30px;
+  width: 92px;
+  padding: 1em;
+
+  margin-left: 2.5em;
+}
+
+#search-bar {
+  border: 1px solid rgb(222, 222, 222);
+  width: 630px;
+  height: 39px;
+  border-radius: 24px;
+  padding: 5px 8px 0px 14px;
+
+  margin: 0.5em 0em 0em 2em;
+}
+
+#search-bar [type=text] {
+  font-size: 14px;
+  width: 487px;
+  height: 34px;
+  border: none;
+}
+
+#tabs {
+  display: flex;
+  flex-direction: row;
+  padding-right: 27px;
+  padding-bottom: 1em;
+}
+
+#tabs a {
+  padding-right: 27px;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+}
+
+#time {
+  padding-top: 1em;
+}
+
+#top-search, #related-questions, .vid {
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 8px;
+  padding: 16px;
+  width: 590px;
+  color: black;
+}
+
+#top-search .source {
+  margin-top: 1em;
+}
+
+article {
+  margin-top: 1.5em;
+  width: 600px;
+}
+
+h3 {
+  color: black;
+  font-size: 20px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(242, 242, 242);
+  margin-top: 2em;
+}
+
+footer span, #country{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  padding-left: 210px;
+  border: 1px solid rgb(222, 222, 222);
+}
+
+footer span {
+  border: none;
+}
+
+footer span a {
+  padding-right: 27px;
+}
+
+footer span a:visited {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #5F6368;
+  text-decoration: rgb(242, 242, 242);
+}
+
+#related-questions {
+  padding: 0px;
+  width: 630px;
+  margin-top: 1.5em;
+}
+
+.rq-question, .rq-title {
+  padding: 9px 16px 16px 12px;
+  border-top: 1px solid rgb(222, 222, 222);
+  font-size: 16px;
+}
+
+.rq-title {
+  font-size: 20px;
+}
+
+#videos {
+  display: flex;
+  flex-direction: row;
+}
+
+#vid-title, #rel-src-title {
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+
+.vid {
+  width: 212px;
+  height: 306px;
+  padding: 0px;
+  margin-right: 4px;
+}
+
+.vid figure img {
+  width: 212px;
+  height: 118px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.vid figcaption {
+  width: 178px;
+  height: 110px;
+  padding: 16px 16px 0px 16px;
+  margin-top: -6px;
+  font-size: 16px;
+}
+
+.vid-source {
+  padding: 0px 16px 11px 16px;
+}
+
+.vid-source cite {
+  color: rgb(128, 128, 128);
+}
+
+.vid-source span, cite {
+  display: inline-block;
+}
+
+#related-searches {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.search-col {
+  display: flex;
+  flex-direction: column;
+  width: 266px;
+}
+
+.search-col a:visited {
+  text-decoration: white;
+}

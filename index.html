@@ -9,33 +9,31 @@
 </head>
 
 <body>
-  <div id="search">
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    <div id="search-bar">
-      <input type="text">
+
+  <div id="top">
+    <div id="search">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+      <div id="search-bar">
+        <input type="text">
+      </div>
     </div>
-  </div>
 
-  <div id="tabs">
-    <span>
-      <a>All</a>
-      <a>News</a>
-      <a>Maps</a>
-      <a>Videos</a>
-      <a>Images</a>
-      <a>More</a>
-    </span>
-    <span>
-      <a></a>
-      <a></a>
-    </span>
+    <div id="tabs">
+      <span>
+        <a>All</a>
+        <a>News</a>
+        <a>Maps</a>
+        <a>Videos</a>
+        <a>Images</a>
+        <a>More</a>
+      </span>
 
-    <a>SafeSearch on</a>
+    </div>
   </div>
 
   <div id="results">
     <p id="time">About 94, 800, 000 results (0.57 seconds)</p>
-    <article class="top_search">
+    <article id="top-search">
       <section>
           TO CREATE  A WEBSITE WITH WORDPRESS (OR JOOMLA & DRUPAL), USE ONE CLICK
           INSTALLATION: Log in to your hosting account. Go to your control
@@ -44,11 +42,18 @@
       </section>
       <div class="source">
       <cite>victor-lf.github.io › google-search-results</cite>
-      <h3><a class="search_title" href="#">build this webpage - GitHub Pages</a></h3>
+      <h3><a href="#">build this webpage - GitHub Pages</a></h3>
       </div>
     </article>
 
-    <article class="search_result">
+    <div id="related-questions">
+      <div class="rq-title"><h3>People also ask</h3></div>
+      <div class="rq-question">How can I create my own webpage?</div>
+      <div class="rq-question">How much does it cost to build a website?</div>
+      <div class="rq-question">Which website builder is best?</div>
+    </div>
+
+    <article class="search-result">
       <div class="source">
         <cite>christine-27.github.io › google-homepage</cite>
         <h3><a href="#">build this webpage - GitHub Pages</a></h3>
@@ -61,7 +66,7 @@
       </section>
     </article>
 
-    <article class="search_result">
+    <article class="search-result">
       <div class="source">
         <cite>arstechnica.com › information-technology › 2013/07</cite>
         <h3><a href="#">With zero coding experience, artist building 180 webpages in ...</a></h3>
@@ -72,9 +77,62 @@
         180 consecutive days.
       </section>
     </article>
-  </div>
 
-  
+    <h3 id="vid-title">Videos</h3>
+
+    <div id="videos">
+      <div class="vid">
+        <figure>
+          <img src="img/how10min.png" alt="">
+          <figcaption><a href="#">How to Make a Website in 10 mins - Simple & Easy</a></figcaption>
+        </figure>
+        <div class="vid-source">
+          <cite>Website Learners</cite>
+          <span>Youtube - Jan 3, 2018</span>
+        </div>
+      </div>
+
+      <div class="vid">
+        <figure>
+          <img src="img/withoutcode.png" alt="">
+          <figcaption><a href="#">How to Build a Website Without Code | Everyone Can Build a ...</a></figcaption>
+        </figure>
+        <div class="vid-source">
+          <cite>Roberto Blake</cite>
+          <span>Youtube - Nov 8, 2016</span>
+        </div>
+      </div>
+
+      <div class="vid">
+        <figure>
+          <img src="img/htmlcss.png" alt="">
+          <figcaption><a href="#">Build your website with HTML & CSS</a></figcaption>
+        </figure>
+        <div class="vid-source">
+          <cite>Le Wagon</cite>
+          <span>Youtube - May 10, 2016</span>
+        </div>
+      </div>
+    </div>
+
+    <h3 id="rel-src-title">Searches related to build this webpage</h3>
+
+    <div id="related-searches">
+      <div class="search-col">
+        <a href="#">how to build a website from scratch</a>
+        <a href="#">learn to build a website</a>
+        <a href="#">ways to build a website</a>
+        <a href="#">how to build and maintain a website</a>
+      </div>
+      <div class="search-col">
+        <a href="#">how to build a good website</a>
+        <a href="#">how hard is it to build a website</a>
+        <a href="#">how to build a website for a client</a>
+        <a href="#">create professional website</a>
+      </div>
+    </div>
+    
+  </div>
 
   <footer>
     <div id="country">Indonesia</div>
