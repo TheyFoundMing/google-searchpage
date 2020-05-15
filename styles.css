@@ -142,7 +142,7 @@ footer span a:visited {
   flex-direction: row;
 }
 
-#vid-title {
+#vid-title, #rel-src-title {
   margin-top: 28px;
   margin-bottom: 12px;
 }
@@ -179,4 +179,21 @@ footer span a:visited {
 
 .vid-source span, cite {
   display: inline-block;
+}
+
+#related-searches {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.search-col {
+  display: flex;
+  flex-direction: column;
+  width: 266px;
+}
+
+.search-col a:visited {
+  text-decoration: white;
 }
